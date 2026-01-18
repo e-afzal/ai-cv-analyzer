@@ -3,6 +3,9 @@ import { useEffect } from "react";
 import { useLocation, useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter";
 
+// LOCAL COMPONENT
+import Navbar from "~/components/Navbar";
+
 // META
 export const meta = () => {
   return [
@@ -24,6 +27,7 @@ const Auth = () => {
 
   return (
     <main className="bg-[url('/images/bg-main.svg')] bg-cover min-h-screen flex items-center justify-center">
+      <Navbar />
       <div className="gradient-border shadow-lg">
         <section className="flex flex-col gap-8 bg-white rounded-2xl p-10">
           <div className="flex flex-col items-center gap-2 text-center">

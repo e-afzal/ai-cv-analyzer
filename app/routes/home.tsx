@@ -1,8 +1,8 @@
 import { resumes } from "~/constants";
 import type { Route } from "./+types/home";
 
-import { useNavigate } from "react-router";
 import { useEffect } from "react";
+import { useNavigate } from "react-router";
 
 // CUSTOM HOOK
 import { usePuterStore } from "~/lib/puter";
